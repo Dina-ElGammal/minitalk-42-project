@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "minitalk.h"
-#include <stdio.h>
 
 void	handle_signal(int signal)
 {
@@ -31,7 +30,7 @@ void	handle_signal(int signal)
 	i++;
 	if (i == 8)
 	{
-		printf("%c", c);
+		ft_printf("%c", c);
 		i = 0;
 		p = 128;
 		c = 0;
